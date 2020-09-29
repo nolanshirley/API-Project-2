@@ -27,8 +27,7 @@ function displayResults(info, holiday){
     cardTitle.innerText = info.response.holidays[holiday].name;
     modalBody.innerText = info.response.holidays[holiday].description;
     modalTitle.innerText = info.response.holidays[holiday].name; 
-    cardTitle.style = 'margin: 10px; padding: 5px; font-size: 25px; font-weight: bolder;'
-
+    cardTitle.style = 'margin-bottom: -8px; margin-top: 25px; padding: -5px; font-size: 25px; font-weight: bolder; color: #C18633;  font-family: Merriweather, serif;'
 }
 
 function displayImage(data, holiday) {
