@@ -1,0 +1,36 @@
+body {
+    background-color: #46B3AB;
+    text-align: center; 
+    margin: 30px; 
+    padding: 20px; 
+}
+
+.col-md-12 {
+    margin-left: 25em;
+    margin-top: 4em;  
+}
+
+#furtherButton {
+    background-color: #1F6762;
+}
+
+#back {
+    background-color: #C18633; 
+}
+
+#next {
+    background-color: #C18633; 
+}
+button {
+    padding: 5px; 
+    margin: 10px; 
+}
+
+/* MODAL */
+#closeButton {
+    background-color: #1F6762; 
+}
+
+.modal-title {
+    font-weight: bolder; 
+}
