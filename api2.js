@@ -16,9 +16,9 @@ async function calendarFetch() {
 }
 
 async function unsplashFetch() {
-    await fetch('https://api.unsplash.com/photos/?client_id=Y93L5vRmLyZHtY2rXQdX0B9f8nu7bUveWTS6aB392xs')
+    await fetch('https://api.unsplash.com/photos/random/?client_id=Y93L5vRmLyZHtY2rXQdX0B9f8nu7bUveWTS6aB392xs')
     .then(response => response.json())
-    .then(data => displayImage(data, holiday))
+    .then(data => displayImage(data))
 }
 
 function displayResults(info, holiday){
@@ -30,10 +30,10 @@ function displayResults(info, holiday){
     cardTitle.style = 'margin-bottom: -8px; margin-top: 25px; padding: -5px; font-size: 25px; font-weight: bolder; color: #C18633;  font-family: Merriweather, serif;'
 }
 
-function displayImage(data, holiday) {
+function displayImage(data) {
     console.log(data); 
     let firstImg = document.getElementById('cardImg');
-    firstImg.src = data[holiday].urls.regular
+    firstImg.src = data.urls.regular
 
 }
 
