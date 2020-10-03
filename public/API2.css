@@ -1,14 +1,21 @@
+#contain {
+    display: flex; 
+    justify-content: center;
+    margin-top: 4em; 
+}
+
+
 body {
     background-color: #46B3AB;
     text-align: center; 
-    margin: 30px; 
-    padding: 20px; 
+    /* margin: 30px; 
+    padding: 20px;  */
 }
-
-.col-md-12 {
+ 
+ /* .col-md-12 {
     margin-left: 20em;
     margin-top: 4em;  
-}
+} */
 
 #furtherButton {
     background-color: #1F6762;
@@ -34,3 +41,4 @@ button {
 .modal-title {
     font-weight: bolder; 
 }
+
